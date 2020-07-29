@@ -2,7 +2,7 @@
 page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 1522106934                              # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
@@ -12,7 +12,7 @@ presskit_download_link                    :                                     
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Music for you and I.
+app_description                           : The Music Sharing App
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -20,7 +20,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Daniel Weatrowski
-your_link                                 : http://danielweatrowski.com
+your_link                                 : https://danielweatrowski.com
 your_city                                 : Fullerton, California
 email_address                             : dweatrowski@gmail.com
 facebook_username                         :                                           
@@ -45,8 +45,18 @@ features                                  :
   - title                                 : Spotify? No Problem
     description                           : While Yusic uses the Apple Music catalog of songs, Spotify or other music service users can still participate in viewing shared music.
     fontawesome_icon_name                 : play
+    
+  - title                                 : Share via iMessage or Email
+    description                           : Share your Yusic library directly through messaging or email services. Friends and family with the Yusic app can accept the library to view your content instantly.
+    fontawesome_icon_name                 : comment
 
-
+  - title                                 : No Account Needed
+    description                           : Download Yusic and start sharing right away. No need to sign in or sign up, Yusic handles this for you using iCloud.
+    fontawesome_icon_name                 : user
+    
+  - title                                 : iCloud Integration
+    description                           : Data is private and secured in your iCloud account. iCloud Sync allows for multiple devices to be up to date at all times.
+    fontawesome_icon_name                 : cloud
 
 
 # Theme Settings
@@ -54,15 +64,15 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               :                 # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#ff3b30" #red
-cover_overlay_transparency                : 0.8
+cover_image                               : assets/headerimage.jpg              # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#007aff" #blue
+cover_overlay_transparency                : 0.9
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
-link_color                                : "#007aff" #blue
+link_color                                : "#ff3b30" # red
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
@@ -71,7 +81,7 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#007aff" # blue
+feature_icons_foreground_color            : "#ff3b30" # red
 feature_icons_background_color            : "#e6e6e6"
 
 social_icons_foreground_color             : "#666666"
