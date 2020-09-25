@@ -5,8 +5,15 @@ include_in_header: true
 ---
 
 # What's New?
-Not much yet, Yusic is brand new to the App Store. Stay tuned for more. 
+- Introducing Yusic Playlists!
+- iOS 14 Support - Widgets coming soon.
 <br>
+
+## **Version 1.0.2**
+Version 1.0.2 runs smoothly on the newly released iOS 14. This update mostly contains bug fixes and faster download/upload times for song sharing.
+
+## **Version 1.0.1**
+Version 1.0.1 contains the option to purchase Yusic playlists through In-App Purchases. Yusic Playlists seemlessly integrates into your Apple Library. With the purchase of Yusic Playlists, all songs that are shared with you from other users are now automatically added to a "Yusic Library" playlist. Any liked songs also get populated into a "Yusic Likes" playlist for future playback. Yusic Playlists costs a one time purchase of $1.99.
 
 ### `Initial Release`
 ## **Version 1.0**
